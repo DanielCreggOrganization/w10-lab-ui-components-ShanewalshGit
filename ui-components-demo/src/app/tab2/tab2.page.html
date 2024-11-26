@@ -1,0 +1,9 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Library</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <app-song-list [songs]="songs"></app-song-list>
+  <app-song-details-modal [isOpen]="isModalOpen"></app-song-details-modal>
+</ion-content>
